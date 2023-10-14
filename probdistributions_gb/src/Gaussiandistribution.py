@@ -98,7 +98,7 @@ def plot_histogram(self):
 			None
 		"""
 		plt.hist(self.data)
-		plt.title('Histogram of Data')
+		plt.title('Histogram')
 		plt.xlabel('data')
 		plt.ylabel('count')
 		
